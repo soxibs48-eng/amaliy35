@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="uz" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swipe — Biznesingizni boshlashning eng qulay fintech platformasi</title>
+  <meta name="description" content="Kichik va o'rta bizneslar uchun qulay onlayn to'lovlar, faktura va moliyaviy boshqaruv platformasi — Swipe (35-Amaliy Ish).">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="figma_preview.png">
+</head>
+<body>
+
+  <!-- SAYT SARLAVHASI (HEADER) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo">
+        <span>swipe</span>
+        <div class="brand-dot"></div>
+      </a>
+
+      <ul class="nav-menu">
+        <li><a href="#features" class="nav-link">Imkoniyatlar</a></li>
+        <li><a href="#pricing" class="nav-link">Tariflar</a></li>
+        <li><a href="#team" class="nav-link">Jamoa</a></li>
+        <li><a href="#faq" class="nav-link">Savollar</a></li>
+        <li><a href="#press" class="nav-link">Yangiliklar</a></li>
+        <li><a href="#contact" class="nav-link">Aloqa</a></li>
+      </ul>
+
+      <div class="header-actions">
+        <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Rejim">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </button>
+        <button class="btn-ghost">Kirish</button>
+        <a href="#contact" class="btn-primary">Boshlash</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO BO'LIMI -->
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">Yangi avlod to'lov ekotizimi</div>
+          <h1 class="hero-title">
+            Biznesingizni boshlashning eng qulay va oson usuli
+          </h1>
+          <p class="hero-desc">
+            Bir necha daqiqa ichida xalqaro va mahalliy to'lovlarni qabul qiling, hisob-fakturalarni avtomatlashtiring va moliyaviy ko'rsatkichlaringizni o'stiring.
+          </p>
+          <div style="display: flex; gap: 16px;">
+            <a href="#contact" class="btn-primary">Bepul hisob ochish</a>
+            <a href="#features" class="btn-ghost" style="border: 1px solid var(--color-border);">Demo ko'rish</a>
+          </div>
+        </div>
+
+        <div class="hero-3d-wrap">
+          <img src="assets/spiral-3d.svg" alt="Swipe 3D figura" class="spiral-shape">
+        </div>
+      </div>
+    </section>
+
+    <!-- HAMKORLAR -->
+    <section class="partners-band">
+      <div class="container partners-wrap">
+        <div class="partner-item">STRIPE</div>
+        <div class="partner-item">PAYPAL</div>
+        <div class="partner-item">KLARNA</div>
+        <div class="partner-item">REVOLUT</div>
+        <div class="partner-item">SHOPIFY</div>
+      </div>
+    </section>
+
+    <!-- RAQAMLARDA (IN NUMBERS) -->
+    <section class="numbers-section">
+      <div class="container numbers-grid">
+        <div class="numbers-visual">
+          <img src="assets/pyramid-green.svg" alt="Swipe 3D Yashil Piramida" class="pyramid-img">
+        </div>
+
+        <div class="numbers-content">
+          <h2>Swipe raqamlarda va real natijalarda</h2>
+          <div class="stats-list">
+            <div class="stat-row">
+              <span class="stat-label">Faol Biznes Mijozlar</span>
+              <span class="stat-number" data-val="1000" data-suffix="+">1000+</span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-label">Qo'llab-quvvatlanuvchi Davlatlar</span>
+              <span class="stat-number" data-val="20" data-suffix="+">20+</span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-label">Oylik To'lovlar Hajmi</span>
+              <span class="stat-number" data-val="50" data-prefix="$" data-suffix="M+">$50M+</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ASOSIY XUSUSIYATLAR (MAIN FEATURES) -->
+    <section id="features" class="features-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Asosiy imkoniyatlarimiz bilan tanishing</h2>
+          <p class="hero-desc" style="margin: 0 auto;">Har bir tranzaksiyani sodda, tezkor va mutlaqo xavfsiz qilish uchun barcha qulayliklar bitta platformada.</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon-wrap">
+              <img src="assets/sphere-cyan.svg" alt="Tezkor To'lovlar" style="width: 90px;">
+            </div>
+            <h3 class="feature-title">Tezkor To'lovlar</h3>
+            <p class="feature-desc">Mijozlaringizdan to'lovlarni bank kartalari, Apple Pay, Google Pay va QR-kod orqali bir soniyada qabul qiling.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrap">
+              <img src="assets/cylinder-yellow.svg" alt="Moliyaviy Tahlillar" style="width: 100px;">
+            </div>
+            <h3 class="feature-title">Chuqur Tahlillar</h3>
+            <p class="feature-desc">Daromadlar, konversiya va o'sish dinamikasini real vaqt rejimida qulay vizual dashboard orqali kuzatib boring.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrap">
+              <img src="assets/torus-purple.svg" alt="Xavfsizlik & Fraud Himoya" style="width: 100px;">
+            </div>
+            <h3 class="feature-title">Bank Darajasidagi Xavfsizlik</h3>
+            <p class="feature-desc">PCI-DSS 1-darajali sertifikat, 256-bit shifrlash va sun'iy intellekt asosidagi firibgarlikdan himoyalash.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OFIS BANNERI -->
+    <section class="office-banner-section">
+      <img src="assets/team-office.jpg" alt="Swipe xalqaro mutaxassislar jamoasi">
+    </section>
+
+    <!-- NARX REJALARI (PRICING PLANS) -->
+    <section id="pricing" class="pricing-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Oddiy va shaffof narxlar</h2>
+          <p class="hero-desc" style="margin: 0 auto;">Yashirin to'lovlarsiz. Biznesingiz ko'lamiga mos qulay tarifni tanlang.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <div class="pricing-card">
+            <h3 class="plan-name">Basic (Boshlang'ich)</h3>
+            <div class="plan-price">$19 <span>/ oyiga</span></div>
+            <p style="color: var(--color-text-muted); font-size: 0.95rem;">Kichik do'konlar va yangi boshlagan frilanserlar uchun.</p>
+            <ul class="plan-features">
+              <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Oylik $10,000 gacha bepul to'lov aylanmasi
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Cheksiz hisob-fakturalar (Invoices)
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Standart elektron pochta orqali yordam
+              </li>
+            </ul>
+            <a href="#contact" class="btn-primary" style="background: var(--color-surface); color: var(--color-text); border: 1px solid var(--color-border); box-shadow: none;">Tanlash</a>
+          </div>
+
+          <div class="pricing-card featured">
+            <div class="pricing-badge">Ommabop</div>
+            <h3 class="plan-name">Pro (Professional)</h3>
+            <div class="plan-price">$39 <span>/ oyiga</span></div>
+            <p style="color: var(--color-text-muted); font-size: 0.95rem;">Tez rivojlanayotgan kompaniyalar va korxonalar uchun.</p>
+            <ul class="plan-features">
+              <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Cheksiz to'lov aylanmasi va valyutalar
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Kengaytirilgan tahlil va eksport (CSV/API)
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                24/7 Shaxsiy menejer va ustuvor qo'llab-quvvatlash
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Multi-foydalanuvchi va ruxsatlar tizimi
+              </li>
+            </ul>
+            <a href="#contact" class="btn-primary">Hoziroq boshlash</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JAMOA BILAN TANISHING (MEET THE TEAM) -->
+    <section id="team" class="team-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Jamoamiz bilan tanishing</h2>
+          <p class="hero-desc" style="margin: 0 auto;">Dunyoning yetakchi texnologiya kompaniyalaridan tajriba to'plagan professionallar.</p>
+        </div>
+
+        <div class="team-grid">
+          <div class="team-card">
+            <div class="team-avatar"><img src="assets/team-1.jpg" alt="Alisa Karimova"></div>
+            <h4 class="team-name">Alisa Karimova</h4>
+            <span class="team-role">Bosh Ijrochi Direktor (CEO)</span>
+          </div>
+
+          <div class="team-card">
+            <div class="team-avatar"><img src="assets/team-2.jpg" alt="Bekzod Rahimov"></div>
+            <h4 class="team-name">Bekzod Rahimov</h4>
+            <span class="team-role">Bosh Texnologiya Direktori (CTO)</span>
+          </div>
+
+          <div class="team-card">
+            <div class="team-avatar"><img src="assets/team-3.jpg" alt="Diana Valiyeva"></div>
+            <h4 class="team-name">Diana Valiyeva</h4>
+            <span class="team-role">Mahsulot Bo'yicha Vitse-Prezident</span>
+          </div>
+
+          <div class="team-card">
+            <div class="team-avatar"><img src="assets/team-4.jpg" alt="Jahongir Rustamov"></div>
+            <h4 class="team-name">Jahongir Rustamov</h4>
+            <span class="team-role">Yetakchi FinTech Muhandisi</span>
+          </div>
+
+          <div class="team-card">
+            <div class="team-avatar"><img src="assets/team-5.jpg" alt="Madina Yusupova"></div>
+            <h4 class="team-name">Madina Yusupova</h4>
+            <span class="team-role">Bosh Mahsulot Dizayneri (UI/UX)</span>
+          </div>
+
+          <div class="team-card">
+            <div class="team-avatar"><img src="assets/team-6.jpg" alt="Shoxrux Tursunov"></div>
+            <h4 class="team-name">Shoxrux Tursunov</h4>
+            <span class="team-role">Kiberxavfsizlik Mutaxassisi</span>
+          </div>
+
+          <div class="team-card">
+            <div class="team-avatar"><img src="assets/team-7.jpg" alt="Otabek Qodirov"></div>
+            <h4 class="team-name">Otabek Qodirov</h4>
+            <span class="team-role">Infratuzilma & DevOps</span>
+          </div>
+
+          <div class="team-card">
+            <div class="team-avatar"><img src="assets/team-8.jpg" alt="Zuhra Mahmudova"></div>
+            <h4 class="team-name">Zuhra Mahmudova</h4>
+            <span class="team-role">Mijozlar Muvaffaqiyati Rahbari</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SAVOLLAR VA JAVOBLAR (FAQ) -->
+    <section id="faq" class="faq-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Ko'p beriladigan savollar</h2>
+          <p class="hero-desc" style="margin: 0 auto;">Swipe xizmatidan foydalanish bo'yicha eng muhim ma'lumotlar.</p>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item active">
+            <button class="faq-question">
+              <span>Swipe orqali to'lovlarni qabul qilishni qanday boshlayman?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              Ro'yxatdan o'tish bir necha daqiqa vaqt oladi. Siz kompaniya ma'lumotlaringizni kiritasiz va biz taqdim etgan oddiy API yoki plaginlar orqali saytingizga to'lov tugmasini ulab olasiz.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Mablag'lar qachon bank hisobimga tushadi?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              Barcha qabul qilingan to'lovlar har kuni avtomatik tarzda siz ko'rsatgan milliy yoki xalqaro bank hisob raqamingizga o'tkazib beriladi.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Xavfsizlik kafolatlanganmi?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              Ha, Swipe xalqaro PCI DSS Level 1 sertifikatiga ega bo'lib, bank darajasidagi 256-bitli shifrlash hamda 3D Secure 2.0 texnologiyalari bilan to'liq himoyalangan.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Tarifni istalgan paytda bekor qilsam bo'ladimi?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              Albatta! Siz hech qanday majburiyatsiz istalgan paytda obunani to'xtatishingiz yoki tarif rejangizni o'zgartirishingiz mumkin.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MIJOZLAR FIKRI (TESTIMONIALS) -->
+    <section class="testimonial-section">
+      <div class="container">
+        <div class="testimonial-card">
+          <div class="testimonial-avatar">
+            <img src="assets/testimonial-user.jpg" alt="Jasur Mirzaev">
+          </div>
+          <div>
+            <p class="testimonial-text">
+              "Swipe tizimiga o'tganimizdan so'ng, xalqaro mijozlarimizdan to'lovlarni qabul qilishdagi uzilishlar 0% ga tushdi. Bizning daromadimiz birinchi chorakning o'zidayoq 35% ga oshdi!"
+            </p>
+            <div class="testimonial-author">
+              <strong>Jasur Mirzaev</strong>
+              <span>Ta'sischi & Bosh direktor, TechStore Global</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MATBUOT VA MAQOLALAR (PRESS) -->
+    <section id="press" class="press-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Matbuot biz haqimizda</h2>
+        </div>
+
+        <div class="press-grid">
+          <div class="press-card">
+            <div class="press-thumb"><img src="assets/press-1.jpg" alt="FinTech O'sishi"></div>
+            <div class="press-body">
+              <span class="press-date">12 Noyabr, 2026</span>
+              <h3 class="press-title">Yangi avlod onlayn to'lov tizimlari qanday rivojlanmoqda?</h3>
+              <p style="color: var(--color-text-muted); font-size: 0.9rem;">Markaziy Osiyoda elektron tijoratning kengayishi va qulay checkout yechimlari.</p>
+            </div>
+          </div>
+
+          <div class="press-card">
+            <div class="press-thumb"><img src="assets/press-2.jpg" alt="Biznes Tahlili"></div>
+            <div class="press-body">
+              <span class="press-date">08 Noyabr, 2026</span>
+              <h3 class="press-title">Biznesda konversiyani oshirish uchun 5 ta muhim qadam</h3>
+              <p style="color: var(--color-text-muted); font-size: 0.9rem;">Savatdan voz kechish foizini kamaytirish va bir bosqichli to'lov mexanizmlari.</p>
+            </div>
+          </div>
+
+          <div class="press-card">
+            <div class="press-thumb"><img src="assets/press-3.jpg" alt="Xavfsizlik Yechimlari"></div>
+            <div class="press-body">
+              <span class="press-date">02 Noyabr, 2026</span>
+              <h3 class="press-title">Kiberxavfsizlik: Tranzaksiyalarni firibgarlardan himoyalash</h3>
+              <p style="color: var(--color-text-muted); font-size: 0.9rem;">Sun'iy intellekt orqali shubhali to'lovlarni soniyaning ulushlarida aniqlash.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOG'LANISH (CONTACT US) -->
+    <section id="contact" class="contact-section">
+      <div class="container contact-wrap">
+        <div>
+          <h2 class="section-title" style="margin-bottom: 20px;">Savollaringiz bormi?</h2>
+          <p class="hero-desc">Mutaxassislarimiz bilan bog'laning va biznesingiz uchun mos to'lov integratsiyasini rejalashtiring.</p>
+          <div style="display: flex; gap: 20px; align-items: center; margin-top: 32px;">
+            <img src="assets/pyramid-pink.svg" alt="Pink 3D Shape" style="width: 70px;">
+            <p style="font-weight: 600; color: var(--color-text);">24 soat ichida shaxsiy hisob-kitob va bepul texnik konsultatsiya!</p>
+          </div>
+        </div>
+
+        <div class="contact-form-box">
+          <form id="swipeContactForm">
+            <input type="text" name="name" placeholder="Ismingiz" required>
+            <input type="email" name="email" placeholder="Elektron pochtangiz" required>
+            <input type="text" name="company" placeholder="Kompaniyangiz nomi" required>
+            <textarea name="message" rows="4" placeholder="Biznesingiz yoki savolingiz haqida qisqacha..." required></textarea>
+            <button type="submit" class="btn-primary" style="width: 100%;">Xabar Yuborish</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FUTER (FOOTER) -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>swipe</h4>
+          <p>Dunyo bo'ylab minglab bizneslar ishonadigan zamonaviy to'lov va moliyaviy ekotizim.</p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Mahsulot</h5>
+          <ul class="footer-links">
+            <li><a href="#features">To'lov shlyuzi</a></li>
+            <li><a href="#features">Hisob-fakturalar</a></li>
+            <li><a href="#features">Virtual kartalar</a></li>
+            <li><a href="#pricing">Tariflar</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Kompaniya</h5>
+          <ul class="footer-links">
+            <li><a href="#team">Jamoa</a></li>
+            <li><a href="#press">Yangiliklar</a></li>
+            <li><a href="#faq">Savollar</a></li>
+            <li><a href="#contact">Aloqa</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Xavfsizlik</h5>
+          <ul class="footer-links">
+            <li><a href="#">Maxfiylik siyosati</a></li>
+            <li><a href="#">Foydalanish shartlari</a></li>
+            <li><a href="#">PCI DSS Muvofiqlik</a></li>
+            <li><a href="#">GDPR Standartlari</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Swipe Inc. Barcha huquqlar himoyalangan. 35-Amaliy Ish.</div>
+        <div>Figma Dizayni: <a href="https://www.figma.com/file/RKq2ORzZcFhfG7g9NYuWhk/Swipe?node-id=1:2" target="_blank" rel="noopener" style="color: #818cf8; text-decoration: underline;">Swipe (node-id: 1:2)</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

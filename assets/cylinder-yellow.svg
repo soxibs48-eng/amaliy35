@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="cylBody" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#eab308"/>
+      <stop offset="50%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+  </defs>
+  <path d="M 30,100 A 70,30 0 0,0 170,100 L 170,140 A 70,30 0 0,1 30,140 Z" fill="url(#cylBody)"/>
+  <ellipse cx="100" cy="100" rx="70" ry="30" fill="#fef08a"/>
+</svg>
