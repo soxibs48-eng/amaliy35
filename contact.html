@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uz" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aloqa va Bog'lanish — Swipe</title>
+  <meta name="description" content="Swipe FinTech mutaxassislari bilan to'lov integratsiyasi va hamkorlik bo'yicha bog'lanish.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="figma_preview.png">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo">
+        <span>swipe</span>
+        <div class="brand-dot"></div>
+      </a>
+
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Bosh sahifa</a></li>
+        <li><a href="features.html" class="nav-link">Imkoniyatlar</a></li>
+        <li><a href="pricing.html" class="nav-link">Tariflar</a></li>
+        <li><a href="about.html" class="nav-link">Jamoa</a></li>
+        <li><a href="contact.html" class="nav-link active">Aloqa</a></li>
+      </ul>
+
+      <div class="header-actions">
+        <a href="contact.html" class="btn-primary">Boshlash</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" style="padding: 64px 24px 96px;">
+    <div class="contact-wrap">
+      <div>
+        <h1 class="section-title">Biz Bilan Bog'laning</h1>
+        <p class="hero-desc">Swipe xizmati bo'yicha savollaringiz bormi? Mutaxassislarimiz sizga yordam berishga doim tayyor.</p>
+        <div style="margin-top: 32px; display: flex; flex-direction: column; gap: 16px;">
+          <div>
+            <strong>Mijozlarni Qo'llab-quvvatlash:</strong>
+            <p style="color: var(--color-text-muted);">support@swipe.io (24/7 ishlaydi)</p>
+          </div>
+          <div>
+            <strong>Biznes Hamkorlik:</strong>
+            <p style="color: var(--color-text-muted);">partners@swipe.io</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-box">
+        <form id="swipeContactForm">
+          <input type="text" name="name" placeholder="Ismingiz va Familiyangiz" required>
+          <input type="email" name="email" placeholder="Elektron pochtangiz" required>
+          <input type="text" name="company" placeholder="Kompaniyangiz nomi" required>
+          <textarea name="message" rows="4" placeholder="Savol yoki loyihangiz haqida qisqacha..." required></textarea>
+          <button type="submit" class="btn-primary" style="width: 100%;">Xabar Yuborish</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <div>© 2026 Swipe Inc. 35-Amaliy Ish.</div>
+      <div><a href="index.html" style="color: #818cf8; text-decoration: underline;">Bosh sahifaga qaytish</a></div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

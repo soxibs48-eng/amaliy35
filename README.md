@@ -83,3 +83,4 @@ Ushbu loyiha Figma platformasidagi mashhur **Swipe** dizaynining to'liq ekotizim
   - `initStatsCounters()` — Scroll bo'yicha raqamlar animatsiyasi.
   - `initContactForm()` — Validatsiya va bildirishnoma.
 - **Vercel**: `vercel.json` orqali toza URL manzillari bilan global joylashtirishga tayyor.
+

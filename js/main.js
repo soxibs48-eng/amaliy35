@@ -86,3 +86,4 @@ function initContactForm() {
     form.reset();
   });
 }
+
